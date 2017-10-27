@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE9CD3391F092868006916D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9CD3381F092868006916D9 /* AppDelegate.swift */; };
+		CE9CD33B1F092868006916D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9CD33A1F092868006916D9 /* ViewController.swift */; };
+		CE9CD33E1F092868006916D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE9CD33C1F092868006916D9 /* Main.storyboard */; };
+		CE9CD3401F092868006916D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE9CD33F1F092868006916D9 /* Assets.xcassets */; };
+		CE9CD3431F092868006916D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE9CD3411F092868006916D9 /* LaunchScreen.storyboard */; };
+		CE9CD34B1F092A5A006916D9 /* cat-cry1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE9CD34A1F092A5A006916D9 /* cat-cry1.mp3 */; };
+		CE9CD34D1F0937DC006916D9 /* cat-cry2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE9CD34C1F0937DC006916D9 /* cat-cry2.mp3 */; };
+		CE9CD3501F0937E6006916D9 /* cat-threat1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE9CD34E1F0937E6006916D9 /* cat-threat1.mp3 */; };
+		CE9CD3511F0937E6006916D9 /* cat-cry3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE9CD34F1F0937E6006916D9 /* cat-cry3.mp3 */; };
+		CE9CD3531F093AD5006916D9 /* chick-cry1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CE9CD3521F093AD5006916D9 /* chick-cry1.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE9CD3351F092868006916D9 /* neko.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = neko.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE9CD3381F092868006916D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE9CD33A1F092868006916D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE9CD33D1F092868006916D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE9CD33F1F092868006916D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE9CD3421F092868006916D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE9CD3441F092868006916D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE9CD34A1F092A5A006916D9 /* cat-cry1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "cat-cry1.mp3"; sourceTree = "<group>"; };
+		CE9CD34C1F0937DC006916D9 /* cat-cry2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "cat-cry2.mp3"; sourceTree = "<group>"; };
+		CE9CD34E1F0937E6006916D9 /* cat-threat1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "cat-threat1.mp3"; sourceTree = "<group>"; };
+		CE9CD34F1F0937E6006916D9 /* cat-cry3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "cat-cry3.mp3"; sourceTree = "<group>"; };
+		CE9CD3521F093AD5006916D9 /* chick-cry1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "chick-cry1.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE9CD3321F092868006916D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE9CD32C1F092868006916D9 = {
+			isa = PBXGroup;
+			children = (
+				CE9CD3371F092868006916D9 /* neko */,
+				CE9CD3361F092868006916D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE9CD3361F092868006916D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE9CD3351F092868006916D9 /* neko.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE9CD3371F092868006916D9 /* neko */ = {
+			isa = PBXGroup;
+			children = (
+				CE9CD3381F092868006916D9 /* AppDelegate.swift */,
+				CE9CD33A1F092868006916D9 /* ViewController.swift */,
+				CE9CD33C1F092868006916D9 /* Main.storyboard */,
+				CE9CD33F1F092868006916D9 /* Assets.xcassets */,
+				CE9CD3411F092868006916D9 /* LaunchScreen.storyboard */,
+				CE9CD3441F092868006916D9 /* Info.plist */,
+				CE9CD34A1F092A5A006916D9 /* cat-cry1.mp3 */,
+				CE9CD34C1F0937DC006916D9 /* cat-cry2.mp3 */,
+				CE9CD34E1F0937E6006916D9 /* cat-threat1.mp3 */,
+				CE9CD34F1F0937E6006916D9 /* cat-cry3.mp3 */,
+				CE9CD3521F093AD5006916D9 /* chick-cry1.mp3 */,
+			);
+			path = neko;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE9CD3341F092868006916D9 /* neko */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE9CD3471F092868006916D9 /* Build configuration list for PBXNativeTarget "neko" */;
+			buildPhases = (
+				CE9CD3311F092868006916D9 /* Sources */,
+				CE9CD3321F092868006916D9 /* Frameworks */,
+				CE9CD3331F092868006916D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = neko;
+			productName = neko;
+			productReference = CE9CD3351F092868006916D9 /* neko.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE9CD32D1F092868006916D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Swift-Study";
+				TargetAttributes = {
+					CE9CD3341F092868006916D9 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CE9CD3301F092868006916D9 /* Build configuration list for PBXProject "neko" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE9CD32C1F092868006916D9;
+			productRefGroup = CE9CD3361F092868006916D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE9CD3341F092868006916D9 /* neko */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE9CD3331F092868006916D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE9CD3511F0937E6006916D9 /* cat-cry3.mp3 in Resources */,
+				CE9CD3431F092868006916D9 /* LaunchScreen.storyboard in Resources */,
+				CE9CD3531F093AD5006916D9 /* chick-cry1.mp3 in Resources */,
+				CE9CD3501F0937E6006916D9 /* cat-threat1.mp3 in Resources */,
+				CE9CD34D1F0937DC006916D9 /* cat-cry2.mp3 in Resources */,
+				CE9CD3401F092868006916D9 /* Assets.xcassets in Resources */,
+				CE9CD34B1F092A5A006916D9 /* cat-cry1.mp3 in Resources */,
+				CE9CD33E1F092868006916D9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE9CD3311F092868006916D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE9CD33B1F092868006916D9 /* ViewController.swift in Sources */,
+				CE9CD3391F092868006916D9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE9CD33C1F092868006916D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE9CD33D1F092868006916D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE9CD3411F092868006916D9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE9CD3421F092868006916D9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE9CD3451F092868006916D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE9CD3461F092868006916D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE9CD3481F092868006916D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = neko/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.jp.BI876587.neko;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CE9CD3491F092868006916D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = neko/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.jp.BI876587.neko;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE9CD3301F092868006916D9 /* Build configuration list for PBXProject "neko" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE9CD3451F092868006916D9 /* Debug */,
+				CE9CD3461F092868006916D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE9CD3471F092868006916D9 /* Build configuration list for PBXNativeTarget "neko" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE9CD3481F092868006916D9 /* Debug */,
+				CE9CD3491F092868006916D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE9CD32D1F092868006916D9 /* Project object */;
+}
