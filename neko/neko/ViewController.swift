@@ -27,6 +27,9 @@ class ViewController: UIViewController {
   let cat3Path = Bundle.main.bundleURL.appendingPathComponent("cat-cry3.mp3")
   let cat4Path = Bundle.main.bundleURL.appendingPathComponent("cat-threat1.mp3")
   var catCry  = AVAudioPlayer()
+    
+    
+    
   var catCount:UInt32 = 1
   //ヒヨコ
   let piyoPath = Bundle.main.bundleURL.appendingPathComponent("chick-cry1.mp3")
